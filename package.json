@@ -1,0 +1,36 @@
+{
+  "name": "own-function-names",
+  "version": "1.0.0",
+  "description": "getOwnPropertyNames limited to functions",
+  "main": "index.js",
+  "scripts": {
+    "rme": "readme package.json > README.md",
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/own-function-names.git"
+  },
+  "keywords": [
+    "getOwnPropertyNames",
+    "function"
+  ],
+  "author": "james@womack.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameswomack/own-function-names/issues"
+  },
+  "homepage": "https://github.com/jameswomack/own-function-names#readme",
+  "dependencies": {
+    "amp-is-function": "^1.0.1",
+    "amp-is-undefined": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "esprima-fb": "^15001.1.0-dev-harmony-fb",
+    "jscs": "jscs-dev/node-jscs",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "package-json-to-readme": "^1.4.1"
+  }
+}
